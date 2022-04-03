@@ -59,6 +59,8 @@ function SignUpForm() {
 
     return (
         <section>
+            Sign Up
+            <br/>
             <form
                 className="infoform"
                 //  onClick={handleSubmit}
