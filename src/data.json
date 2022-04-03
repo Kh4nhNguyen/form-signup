@@ -1,0 +1,22 @@
+[
+    {
+        "name":"admin",
+        "pass":"123456"
+    },
+    {
+        "name":"admin1@gmail.com",
+        "pass":"123456"
+    },
+    {
+        "name":"admin2@gmail.com",
+        "pass":"123456"
+    },
+    {
+        "name":"admin3@gmail.com",
+        "pass":"123456"
+    },
+    {
+        "name":"admin4@gmail.com",
+        "pass":"123456"
+    }
+]

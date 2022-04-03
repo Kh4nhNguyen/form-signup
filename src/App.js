@@ -1,19 +1,23 @@
+import React, { createContext } from "react"
+import { Routes, Route, Link } from 'react-router-dom'
 import SignUpForm from './component/signup/SignUpForm'
 import Todolist from './component/todolist/Todolist'
-
-import { useState } from 'react';
+import SignInForm from './component/signin/SignInForm'
 import './App.css';
 
 function App() {
-  const [check, setCheck] = useState(false)
+
 
   return (
-    <div className="App">
+    <>
       <header>
-      {check && <SignUpForm />}
-      <Todolist />
+        <Routes>
+          <Route path='/' element={<SignInForm />} />
+          <Route path='/register' element={<SignUpForm />} />
+          <Route path='/todolist' element={<Todolist />} />
+        </Routes>
       </header>
-    </div>
+    </>
   );
 }
 

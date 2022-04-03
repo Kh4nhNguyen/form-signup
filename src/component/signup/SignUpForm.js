@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState} from 'react';
 import * as Yup from 'yup';//tác dụng để xác thực values của initialValues
 import { useFormik } from 'formik';
 import './signupform.css'
+
 
 function SignUpForm() {
     const [name, setName] = useState('')
